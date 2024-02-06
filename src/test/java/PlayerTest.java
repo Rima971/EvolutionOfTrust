@@ -10,9 +10,9 @@ public class PlayerTest {
     public void ableToGainOrInvestCoins(){
         Player cheater = new Cheater();
         cheater.gain();
-        assertEquals(new Score(3), cheater.getScores());
+        assertEquals(new Score(3), cheater.getScore());
 
         cheater.invest();
-        assertEquals(new Score(2), cheater.getScores());
+        assertEquals(new Score(2), cheater.getScore());
     }
 }

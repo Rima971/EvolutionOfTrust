@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d1fe190-c935-4e35-8c36-c1b8d2060202" name="Changes" comment="Pushing code">
+    <list default="true" id="7d1fe190-c935-4e35-8c36-c1b8d2060202" name="Changes" comment="Test CopyCat and CopyKitten copies each other when facing each other">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/playerTypes/Detective.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DetectiveTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/game/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CheaterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheaterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/game/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/game/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CopyCatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CopyCatTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CopyKittenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CopyKittenTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,16 +49,32 @@
     "JUnit.CheaterTest.alwaysReturnsCheatingMove.executor": "Run",
     "JUnit.CheaterTest.executor": "Run",
     "JUnit.CooperatorTest.executor": "Run",
+    "JUnit.CopyCatTest.alwaysCheatsAsItsFirstMove.executor": "Run",
+    "JUnit.CopyCatTest.cheatsOnNotGainingCoins.executor": "Run",
+    "JUnit.CopyCatTest.cooperatesOnGainingCoins.executor": "Run",
+    "JUnit.CopyCatTest.copiesTheOpponentMovesWhenFacingACheater.executor": "Run",
     "JUnit.CopyCatTest.copiesTheOpponentMovesWhenFacingACooperator.executor": "Run",
     "JUnit.CopyCatTest.copiesTheOpponentMovesWhenFacingACopyKitten.executor": "Run",
     "JUnit.CopyCatTest.executor": "Run",
+    "JUnit.CopyKittenTest.alwaysCooperatesAsItsFirstMove.executor": "Run",
+    "JUnit.CopyKittenTest.cheatsOnNotGainingCoins.executor": "Run",
+    "JUnit.CopyKittenTest.cooperatesOnGainingCoins.executor": "Run",
+    "JUnit.CopyKittenTest.copiesTheOpponentMovesWhenFacingACheater.executor": "Run",
+    "JUnit.CopyKittenTest.copiesTheOpponentMovesWhenFacingACopyCat.executor": "Run",
     "JUnit.CopyKittenTest.executor": "Run",
+    "JUnit.DetectiveTest.actsLikeCheaterIfNeverCheatedBackOnFirstTwoRounds.executor": "Run",
+    "JUnit.DetectiveTest.actsLikeCopyCatIfCheatedBackInFirstOfTheTwoRounds.executor": "Run",
+    "JUnit.DetectiveTest.alwaysCheatsOnSecondMove.executor": "Run",
+    "JUnit.DetectiveTest.alwaysCooperatesOnFirstMove.executor": "Run",
+    "JUnit.DetectiveTest.executor": "Run",
     "JUnit.EvaluatorTest.executor": "Run",
     "JUnit.GameTest.CheaterAndCooperatorPlay5RoundsAndGenerateCorrectScores.executor": "Run",
     "JUnit.GameTest.ableToCreateAGameWithTwoPlayers.executor": "Run",
     "JUnit.GameTest.ableToStartARound.executor": "Run",
     "JUnit.GameTest.cheaterAndCooperatorPlay5RoundsAndGenerateCorrectScores.executor": "Run",
     "JUnit.GameTest.copyCatAndCooperatorPlay5RoundsAndGenerateCorrectScores.executor": "Run",
+    "JUnit.GameTest.detectiveAndCheaterPlayTotal5RoundsAndGenerateCorrectScores.executor": "Run",
+    "JUnit.GameTest.detectiveAndCooperatorPlayTotal5RoundsAndGenerateCorrectScores.executor": "Run",
     "JUnit.GameTest.executor": "Run",
     "JUnit.GameTest.titForTatAndCooperatorPlay5RoundsAndGenerateCorrectScores.executor": "Run",
     "JUnit.GameTest.twoCheatersCanPlay5RoundsAndGenerateCorrectScores.executor": "Run",
@@ -92,51 +111,51 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CopyKittenTest.copiesTheOpponentMovesWhenFacingACopyCat">
-    <configuration name="CopyCatTest.copiesTheOpponentMovesWhenFacingACopyKitten" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GameTest.detectiveAndCooperatorPlayTotal5RoundsAndGenerateCorrectScores">
+    <configuration name="DetectiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EvolutionOfTrust" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CopyCatTest" />
-      <option name="METHOD_NAME" value="copiesTheOpponentMovesWhenFacingACopyKitten" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CopyKittenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EvolutionOfTrust" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CopyKittenTest" />
+      <option name="MAIN_CLASS_NAME" value="DetectiveTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyKittenTest.copiesTheOpponentMovesWhenFacingACopyCat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DetectiveTest.actsLikeCheaterIfNeverCheatedBackOnFirstTwoRounds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EvolutionOfTrust" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CopyKittenTest" />
-      <option name="METHOD_NAME" value="copiesTheOpponentMovesWhenFacingACopyCat" />
+      <option name="MAIN_CLASS_NAME" value="DetectiveTest" />
+      <option name="METHOD_NAME" value="actsLikeCheaterIfNeverCheatedBackOnFirstTwoRounds" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.ableToCreateAGameWithTwoPlayers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DetectiveTest.actsLikeCopyCatIfCheatedBackInFirstOfTheTwoRounds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EvolutionOfTrust" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GameTest" />
-      <option name="METHOD_NAME" value="ableToCreateAGameWithTwoPlayers" />
+      <option name="MAIN_CLASS_NAME" value="DetectiveTest" />
+      <option name="METHOD_NAME" value="actsLikeCopyCatIfCheatedBackInFirstOfTheTwoRounds" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.copyCatAndCooperatorPlay5RoundsAndGenerateCorrectScores" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.detectiveAndCheaterPlayTotal5RoundsAndGenerateCorrectScores" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EvolutionOfTrust" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GameTest" />
-      <option name="METHOD_NAME" value="copyCatAndCooperatorPlay5RoundsAndGenerateCorrectScores" />
+      <option name="METHOD_NAME" value="detectiveAndCheaterPlayTotal5RoundsAndGenerateCorrectScores" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.detectiveAndCooperatorPlayTotal5RoundsAndGenerateCorrectScores" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EvolutionOfTrust" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameTest" />
+      <option name="METHOD_NAME" value="detectiveAndCooperatorPlayTotal5RoundsAndGenerateCorrectScores" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CopyKittenTest.copiesTheOpponentMovesWhenFacingACopyCat" />
-        <item itemvalue="JUnit.CopyCatTest.copiesTheOpponentMovesWhenFacingACopyKitten" />
-        <item itemvalue="JUnit.GameTest.ableToCreateAGameWithTwoPlayers" />
-        <item itemvalue="JUnit.GameTest.copyCatAndCooperatorPlay5RoundsAndGenerateCorrectScores" />
-        <item itemvalue="JUnit.CopyKittenTest" />
+        <item itemvalue="JUnit.GameTest.detectiveAndCooperatorPlayTotal5RoundsAndGenerateCorrectScores" />
+        <item itemvalue="JUnit.GameTest.detectiveAndCheaterPlayTotal5RoundsAndGenerateCorrectScores" />
+        <item itemvalue="JUnit.DetectiveTest" />
+        <item itemvalue="JUnit.DetectiveTest.actsLikeCopyCatIfCheatedBackInFirstOfTheTwoRounds" />
+        <item itemvalue="JUnit.DetectiveTest.actsLikeCheaterIfNeverCheatedBackOnFirstTwoRounds" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707192253662</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Test CopyCat and CopyKitten copies each other when facing each other">
+      <option name="closed" value="true" />
+      <created>1707194297348</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707194297348</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -271,7 +298,8 @@
     <MESSAGE value="Test CopyCat always cheats first and subsequently mirrors the opponent" />
     <MESSAGE value="Created CopyKitten" />
     <MESSAGE value="Pushing code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pushing code" />
+    <MESSAGE value="Test CopyCat and CopyKitten copies each other when facing each other" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test CopyCat and CopyKitten copies each other when facing each other" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -281,10 +309,15 @@
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/GameTest.java</url>
+          <line>193</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/GameTest.java</url>
-          <line>64</line>
-          <properties class="GameTest" method="titForTatAndCooperatorPlay5RoundsAndGenerateCorrectScores">
+          <line>100</line>
+          <properties class="GameTest" method="copyCatAndCooperatorPlay5RoundsAndGenerateCorrectScores">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

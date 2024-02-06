@@ -17,7 +17,7 @@ abstract public class Player {
         score += 3;
     }
 
-    public Score getScores(){
+    public Score getScore(){
         return new Score(this.score);
     }
 

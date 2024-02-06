@@ -1,8 +1,6 @@
 import org.game.Game;
 import org.game.Score;
-import org.game.playerTypes.Cheater;
-import org.game.playerTypes.Cooperator;
-import org.game.playerTypes.CopyCat;
+import org.game.playerTypes.*;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -21,8 +19,8 @@ public class GameTest {
         Cooperator cooperator = new Cooperator();
         Game game = new Game(cheater, cooperator);
         assertDoesNotThrow(()->game.start(1));
-        assertEquals(new Score(3), cheater.getScores());
-        assertEquals(new Score(-1), cooperator.getScores());
+        assertEquals(new Score(3), cheater.getScore());
+        assertEquals(new Score(-1), cooperator.getScore());
     }
 
     @Test
@@ -33,8 +31,8 @@ public class GameTest {
 
         game.start(5);
 
-        assertEquals(new Score(0), firstCheater.getScores());
-        assertEquals(new Score(0), secondCheater.getScores());
+        assertEquals(new Score(0), firstCheater.getScore());
+        assertEquals(new Score(0), secondCheater.getScore());
     }
 
     @Test
@@ -45,8 +43,8 @@ public class GameTest {
 
         game.start(5);
 
-        assertEquals(new Score(10), firstCooperator.getScores());
-        assertEquals(new Score(10), secondCooperator.getScores());
+        assertEquals(new Score(10), firstCooperator.getScore());
+        assertEquals(new Score(10), secondCooperator.getScore());
     }
 
     @Test
@@ -57,8 +55,46 @@ public class GameTest {
 
         game.start(5);
 
-        assertEquals(new Score(15), cheater.getScores());
-        assertEquals(new Score(-5), cooperator.getScores());
+        assertEquals(new Score(15), cheater.getScore());
+        assertEquals(new Score(-5), cooperator.getScore());
+    }
+    @Test
+    public void copyCatAndCheaterPlayAndGenerateCorrectScores(){
+        Cheater cheater = new Cheater();
+        CopyCat copyCat = new CopyCat();
+        Game game = new Game(cheater, copyCat);
+
+        game.start(2);
+
+        assertEquals(new Score(0), cheater.getScore());
+        assertEquals(new Score(0), copyCat.getScore());
+
+        game.start(1);
+
+        assertEquals(new Score(0), cheater.getScore());
+        assertEquals(new Score(0), copyCat.getScore());
+
+        game.start(1);
+
+        assertEquals(new Score(0), cheater.getScore());
+        assertEquals(new Score(0), copyCat.getScore());
+    }
+
+    @Test
+    public void copyCatAndCooperatorPlayAndGenerateCorrectScores(){
+        Cooperator cooperator = new Cooperator();
+        CopyCat copyCat = new CopyCat();
+        Game game = new Game(cooperator, copyCat);
+
+        game.start(2);
+
+        assertEquals(new Score(1), cooperator.getScore());
+        assertEquals(new Score(5), copyCat.getScore());
+
+        game.start(1);
+
+        assertEquals(new Score(3), cooperator.getScore());
+        assertEquals(new Score(7), copyCat.getScore());
     }
 
     @Test
@@ -68,7 +104,97 @@ public class GameTest {
         Game game = new Game(copyCat, cooperator);
 
         game.start(5);
-        assertEquals(new Score(11), copyCat.getScores());
-        assertEquals(new Score(7), cooperator.getScores());
+        assertEquals(new Score(11), copyCat.getScore());
+        assertEquals(new Score(7), cooperator.getScore());
     }
+    @Test
+    public void copyKittenAndCheaterPlayAndGenerateCorrectScores(){
+        Cheater cheater = new Cheater();
+        CopyKitten copyKitten = new CopyKitten();
+        Game game = new Game(cheater, copyKitten);
+
+        game.start(2);
+
+        assertEquals(new Score(3), cheater.getScore());
+        assertEquals(new Score(-1), copyKitten.getScore());
+
+        game.start(1);
+
+        assertEquals(new Score(3), cheater.getScore());
+        assertEquals(new Score(-1), copyKitten.getScore());
+
+        game.start(1);
+
+        assertEquals(new Score(3), cheater.getScore());
+        assertEquals(new Score(-1), copyKitten.getScore());
+    }
+
+    @Test
+    public void copyKittenAndCooperatorPlayAndGenerateCorrectScores(){
+        Cooperator cooperator = new Cooperator();
+        CopyKitten copyKitten = new CopyKitten();
+        Game game = new Game(cooperator, copyKitten);
+
+        game.start(2);
+
+        assertEquals(new Score(4), cooperator.getScore());
+        assertEquals(new Score(4), copyKitten.getScore());
+
+        game.start(1);
+
+        assertEquals(new Score(6), cooperator.getScore());
+        assertEquals(new Score(6), copyKitten.getScore());
+    }
+
+    @Test
+    public void copyKittenAndCopyCatPlayAndGenerateCorrectScores(){
+        CopyKitten copyKitten = new CopyKitten();
+        CopyCat copyCat = new CopyCat();
+        Game game = new Game(copyKitten, copyCat);
+
+        game.start(2);
+
+        assertEquals(new Score(2), copyKitten.getScore());
+        assertEquals(new Score(2), copyCat.getScore());
+
+        game.start(1);
+
+        assertEquals(new Score(1), copyKitten.getScore());
+        assertEquals(new Score(5), copyCat.getScore());
+    }
+
+    @Test
+    public void detectiveAndCheaterPlayTotal5RoundsAndGenerateCorrectScores(){
+        Detective detective = new Detective();
+        Cheater cheater = new Cheater();
+        Game game = new Game(detective, cheater);
+
+        game.start(2);
+
+        assertEquals(new Score(-1), detective.getScore());
+        assertEquals(new Score(3), cheater.getScore());
+
+        game.start(3);
+
+        assertEquals(new Score(-1), detective.getScore());
+        assertEquals(new Score(3), cheater.getScore());
+    }
+
+    @Test
+    public void detectiveAndCooperatorPlayTotal5RoundsAndGenerateCorrectScores(){
+        Detective detective = new Detective();
+        Cooperator cooperator = new Cooperator();
+        Game game = new Game(detective, cooperator);
+
+        game.start(2);
+
+        assertEquals(new Score(5), detective.getScore());
+        assertEquals(new Score(1), cooperator.getScore());
+
+        game.start(3);
+
+        assertEquals(new Score(14), detective.getScore());
+        assertEquals(new Score(-2), cooperator.getScore());
+    }
+
 }
