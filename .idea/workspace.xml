@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7d1fe190-c935-4e35-8c36-c1b8d2060202" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/enums/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/playerTypes/Cheater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/playerTypes/Cooperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/playerTypes/TitForTatCheatFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/playerTypes/TitForTatCooperateFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CheaterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CooperatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TitForTatCheatFirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TitForTatCooperateFirstTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2bwSXUAbSogJR32rLlwnI2flSvJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.CheaterTest.ableToGainOrInvestCoins.executor": "Run",
+    "JUnit.CheaterTest.ableToProcessTransactionCorrectly.executor": "Run",
+    "JUnit.CheaterTest.alwaysReturnsCheatingMove.executor": "Run",
+    "JUnit.CheaterTest.executor": "Run",
+    "JUnit.CooperatorTest.executor": "Run",
+    "JUnit.EvaluatorTest.executor": "Run",
+    "JUnit.GameTest.CheaterAndCooperatorPlay5RoundsAndGenerateCorrectScores.executor": "Run",
+    "JUnit.GameTest.ableToStartARound.executor": "Run",
+    "JUnit.GameTest.cheaterAndCooperatorPlay5RoundsAndGenerateCorrectScores.executor": "Run",
+    "JUnit.GameTest.executor": "Run",
+    "JUnit.GameTest.titForTatAndCooperatorPlay5RoundsAndGenerateCorrectScores.executor": "Run",
+    "JUnit.GameTest.twoCheatersCanPlay5RoundsAndGenerateCorrectScores.executor": "Run",
+    "JUnit.GameTest.twoCheatersCanPlay5RoundsAndGetCorrectScores.executor": "Run",
+    "JUnit.GameTest.twoCooperatorsCanPlay5RoundsAndGenerateCorrectScores.executor": "Run",
+    "JUnit.GameTest.twoCooperatorsCanPlay5RoundsAndGetCorrectScores.executor": "Run",
+    "JUnit.PlayerTest.ableToGainOrInvestCoins.executor": "Run",
+    "JUnit.PlayerTest.executor": "Run",
+    "JUnit.TitForTatCheatFirstTest.alwaysCheatsAsItsFirstMove.executor": "Run",
+    "JUnit.TitForTatCheatFirstTest.copiesTheOpponentMovesWhenFacingACheater.executor": "Run",
+    "JUnit.TitForTatCheatFirstTest.copiesTheOpponentMovesWhenFacingACooperator.executor": "Run",
+    "JUnit.TitForTatCooperateFirstTest.alwaysCooperatesAsItsFirstMove.executor": "Run",
+    "JUnit.TitForTatCooperateFirstTest.copiesTheOpponentMovesWhenFacingACheater.executor": "Run",
+    "JUnit.TitForTatCooperateFirstTest.copiesTheOpponentMovesWhenFacingACooperator.executor": "Run",
+    "JUnit.TitForTatTest.alwaysCheatsAsItsFirstMove.executor": "Run",
+    "JUnit.TitForTatTest.copiesTheOpponentMoves.executor": "Run",
+    "JUnit.TitForTatTest.copiesTheOpponentMovesWhenFacingACheater.executor": "Run",
+    "JUnit.TitForTatTest.copiesTheOpponentMovesWhenFacingACooperator.executor": "Run",
+    "JUnit.TitForTatTest.executor": "Run",
+    "JUnit.TrustEvaluatorTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/Users/madhurima.poddar_ftc/IdeaProjects/EvolutionOfTrust/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CooperatorTest">
+    <configuration name="CooperatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EvolutionOfTrust" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CooperatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TitForTatCheatFirstTest.copiesTheOpponentMovesWhenFacingACooperator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EvolutionOfTrust" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TitForTatCheatFirstTest" />
+      <option name="METHOD_NAME" value="copiesTheOpponentMovesWhenFacingACooperator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TitForTatCooperateFirstTest.alwaysCooperatesAsItsFirstMove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EvolutionOfTrust" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TitForTatCooperateFirstTest" />
+      <option name="METHOD_NAME" value="alwaysCooperatesAsItsFirstMove" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TitForTatCooperateFirstTest.copiesTheOpponentMovesWhenFacingACheater" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EvolutionOfTrust" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TitForTatCooperateFirstTest" />
+      <option name="METHOD_NAME" value="copiesTheOpponentMovesWhenFacingACheater" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TitForTatCooperateFirstTest.copiesTheOpponentMovesWhenFacingACooperator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EvolutionOfTrust" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TitForTatCooperateFirstTest" />
+      <option name="METHOD_NAME" value="copiesTheOpponentMovesWhenFacingACooperator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CooperatorTest" />
+        <item itemvalue="JUnit.TitForTatCooperateFirstTest.copiesTheOpponentMovesWhenFacingACooperator" />
+        <item itemvalue="JUnit.TitForTatCooperateFirstTest.copiesTheOpponentMovesWhenFacingACheater" />
+        <item itemvalue="JUnit.TitForTatCheatFirstTest.copiesTheOpponentMovesWhenFacingACooperator" />
+        <item itemvalue="JUnit.TitForTatCooperateFirstTest.alwaysCooperatesAsItsFirstMove" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d1fe190-c935-4e35-8c36-c1b8d2060202" name="Changes" comment="" />
+      <created>1707124687260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707124687260</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/game/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TitForTatCheatFirstTest.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/GameTest.java</url>
+          <line>64</line>
+          <properties class="GameTest" method="titForTatAndCooperatorPlay5RoundsAndGenerateCorrectScores">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
