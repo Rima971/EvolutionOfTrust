@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d1fe190-c935-4e35-8c36-c1b8d2060202" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/Score.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/enums/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/playerTypes/Cheater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/playerTypes/Cooperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/playerTypes/TitForTatCheatFirst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/playerTypes/TitForTatCooperateFirst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CheaterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CooperatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TitForTatCheatFirstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TitForTatCooperateFirstTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="7d1fe190-c935-4e35-8c36-c1b8d2060202" name="Changes" comment="Created CopyKitten" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,40 +87,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TitForTatCheatFirstTest.copiesTheOpponentMovesWhenFacingACooperator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CopyCatTest.copiesTheOpponentMovesWhenFacingACooperator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EvolutionOfTrust" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TitForTatCheatFirstTest" />
+      <option name="MAIN_CLASS_NAME" value="CopyCatTest" />
       <option name="METHOD_NAME" value="copiesTheOpponentMovesWhenFacingACooperator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TitForTatCooperateFirstTest.alwaysCooperatesAsItsFirstMove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CopyKittenTest.alwaysCooperatesAsItsFirstMove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EvolutionOfTrust" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TitForTatCooperateFirstTest" />
+      <option name="MAIN_CLASS_NAME" value="CopyKittenTest" />
       <option name="METHOD_NAME" value="alwaysCooperatesAsItsFirstMove" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TitForTatCooperateFirstTest.copiesTheOpponentMovesWhenFacingACheater" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CopyKittenTest.copiesTheOpponentMovesWhenFacingACheater" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EvolutionOfTrust" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TitForTatCooperateFirstTest" />
+      <option name="MAIN_CLASS_NAME" value="CopyKittenTest" />
       <option name="METHOD_NAME" value="copiesTheOpponentMovesWhenFacingACheater" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TitForTatCooperateFirstTest.copiesTheOpponentMovesWhenFacingACooperator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CopyKittenTest.copiesTheOpponentMovesWhenFacingACooperator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EvolutionOfTrust" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TitForTatCooperateFirstTest" />
+      <option name="MAIN_CLASS_NAME" value="CopyKittenTest" />
       <option name="METHOD_NAME" value="copiesTheOpponentMovesWhenFacingACooperator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -153,10 +130,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CooperatorTest" />
-        <item itemvalue="JUnit.TitForTatCooperateFirstTest.copiesTheOpponentMovesWhenFacingACooperator" />
-        <item itemvalue="JUnit.TitForTatCooperateFirstTest.copiesTheOpponentMovesWhenFacingACheater" />
-        <item itemvalue="JUnit.TitForTatCheatFirstTest.copiesTheOpponentMovesWhenFacingACooperator" />
-        <item itemvalue="JUnit.TitForTatCooperateFirstTest.alwaysCooperatesAsItsFirstMove" />
+        <item itemvalue="JUnit.CopyKittenTest.copiesTheOpponentMovesWhenFacingACooperator" />
+        <item itemvalue="JUnit.CopyKittenTest.copiesTheOpponentMovesWhenFacingACheater" />
+        <item itemvalue="JUnit.CopyCatTest.copiesTheOpponentMovesWhenFacingACooperator" />
+        <item itemvalue="JUnit.CopyKittenTest.alwaysCooperatesAsItsFirstMove" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +153,101 @@
       <option name="presentableId" value="Default" />
       <updated>1707124687260</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created Player class with the ablity to gain or invest">
+      <option name="closed" value="true" />
+      <created>1707191505421</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707191505421</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Test player for being able to gain or invest">
+      <option name="closed" value="true" />
+      <created>1707191524386</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707191524386</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created Player types : Cheater (always cheats) ane Cooperator (always cooperates)">
+      <option name="closed" value="true" />
+      <created>1707191584260</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707191584260</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Test Cheater always decides to cheat and Cooperator always decides to cooperate">
+      <option name="closed" value="true" />
+      <created>1707191635544</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707191635544</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created Score to easily compare scores without revealing internals of players">
+      <option name="closed" value="true" />
+      <created>1707191706676</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707191706676</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Created Game that can evaluate player decisions, update their scores and play rounds">
+      <option name="closed" value="true" />
+      <created>1707191782022</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707191782022</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Test game can start a round and update scores correctly">
+      <option name="closed" value="true" />
+      <created>1707191826713</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707191826713</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Created CopyCat that cheates first and copies the opponent moves subsequently">
+      <option name="closed" value="true" />
+      <created>1707191877368</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707191877368</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Test CopyCat always cheats first and subsequently mirrors the opponent">
+      <option name="closed" value="true" />
+      <created>1707191915162</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707191915162</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Created CopyKitten">
+      <option name="closed" value="true" />
+      <created>1707191944746</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707191944746</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created Player class with the ablity to gain or invest" />
+    <MESSAGE value="Test player for being able to gain or invest" />
+    <MESSAGE value="Created Player types : Cheater (always cheats) ane Cooperator (always cooperates)" />
+    <MESSAGE value="Test Cheater always decides to cheat and Cooperator always decides to cooperate" />
+    <MESSAGE value="Created Score to easily compare scores without revealing internals of players" />
+    <MESSAGE value="Created Game that can evaluate player decisions, update their scores and play rounds" />
+    <MESSAGE value="Test game can start a round and update scores correctly" />
+    <MESSAGE value="Created CopyCat that cheates first and copies the opponent moves subsequently" />
+    <MESSAGE value="Test CopyCat always cheats first and subsequently mirrors the opponent" />
+    <MESSAGE value="Created CopyKitten" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created CopyKitten" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -187,7 +258,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/TitForTatCheatFirstTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/CopyCatTest.java</url>
           <line>63</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
