@@ -1,4 +1,3 @@
-import org.game.Score;
 import org.game.enums.Move;
 import org.game.playerTypes.Cheater;
 import org.junit.jupiter.api.Test;

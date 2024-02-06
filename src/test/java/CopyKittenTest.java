@@ -3,6 +3,7 @@ import org.game.Player;
 import org.game.Score;
 import org.game.playerTypes.Cheater;
 import org.game.playerTypes.Cooperator;
+import org.game.playerTypes.CopyCat;
 import org.game.playerTypes.CopyKitten;
 import org.junit.Test;
 
@@ -70,5 +71,22 @@ public class CopyKittenTest {
 
         assertEquals(new Score(6), cooperator.getScores());
         assertEquals(new Score(6), copyKitten.getScores());
+    }
+
+    @Test
+    public void copiesTheOpponentMovesWhenFacingACopyCat(){
+        CopyKitten copyKitten = new CopyKitten();
+        CopyCat copyCat = new CopyCat();
+        Game game = new Game(copyKitten, copyCat);
+
+        game.start(2);
+
+        assertEquals(new Score(2), copyKitten.getScores());
+        assertEquals(new Score(2), copyCat.getScores());
+
+        game.start(1);
+
+        assertEquals(new Score(1), copyKitten.getScores());
+        assertEquals(new Score(5), copyCat.getScores());
     }
 }

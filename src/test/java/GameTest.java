@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class GameTest {
     @Test
-    public void ableToStartAGameWithTwoPlayers(){
+    public void ableToCreateAGameWithTwoPlayers(){
         Cheater cheater = new Cheater();
         Cooperator cooperator = new Cooperator();
         assertDoesNotThrow(()->new Game(cheater, cooperator));
@@ -62,7 +62,7 @@ public class GameTest {
     }
 
     @Test
-    public void titForTatAndCooperatorPlay5RoundsAndGenerateCorrectScores(){
+    public void copyCatAndCooperatorPlay5RoundsAndGenerateCorrectScores(){
         Cooperator cooperator = new Cooperator();
         CopyCat copyCat = new CopyCat();
         Game game = new Game(copyCat, cooperator);

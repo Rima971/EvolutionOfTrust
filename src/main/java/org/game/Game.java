@@ -3,8 +3,8 @@ package org.game;
 import org.game.enums.Move;
 
 public class Game {
-    private Player firstPlayer;
-    private Player secondPlayer;
+    private final Player firstPlayer;
+    private final Player secondPlayer;
     public Game(Player player1, Player player2){
         this.firstPlayer = player1;
         this.secondPlayer = player2;
